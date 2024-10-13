@@ -20,7 +20,7 @@ Further settings for the dataset, number of clients, multi-view clients / single
 
 
 You can also transform it into an IMVC method for comparison by changing the number of clients and the ratio of multi-view clients / single-view clients. 
-For example, in the MNIST-USPS dataset with a missing rate of 0.5, run the code as:
+For example, in the MNIST-USPS dataset with a missing rate of 0.5, run:
 ```execution
 python main.py --dataset='MNIST-USPS' --num_users=2 --M_S=1
 ```
